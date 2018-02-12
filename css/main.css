@@ -108,6 +108,18 @@ html {
     font-weight: 400;    
 }
 
+p {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.9em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
 .white {
     color: white;
 }
@@ -222,10 +234,10 @@ header {
 .card-title {
     color: black;
     margin-top: 10px;
+    font-size: 1.4em;
 }
 
 .card-content {
-    font-size: 24px;
     color: gray;
 }
 
@@ -292,28 +304,31 @@ header {
 
 .section-title {
     text-align: center;
-    font-size: 1.7em;
     padding: 46px 0 12px 0;
 }
 
 .grid {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
 .integration-logo {
-    width: 112px;
+    width: 80px;
     padding: 56px;
 }
 
 .gmail-logo {
-    padding-top: 18px;
+    padding-top: 9px;
 }
 
 .gmail-logo p {
     padding-top: 13px;
+}
+
+.how-it-works {
+    padding: 40px 0 100px 0;
 }
 
 .how-it-works-text {
@@ -328,6 +343,10 @@ header {
 
 .how-it-works img {
     padding: 32px;
+}
+
+.transparent-card {
+    padding: 20px 0 20px 0;
 }
 
 footer {
