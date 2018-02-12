@@ -349,6 +349,18 @@ header {
     padding: 20px 0 20px 0;
 }
 
+.cta {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #e3e8ff;
+}
+
+.cta h2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 36px 0;
+}
+
 footer {
     height: 250px;
     background-color: #587aff;
