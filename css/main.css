@@ -108,6 +108,10 @@ html {
     font-weight: 400;    
 }
 
+.white {
+    color: white;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1400px;
@@ -160,6 +164,7 @@ header {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 1px;
+    color: white !important;
 }
 
 .logo a:hover {
@@ -186,10 +191,6 @@ header {
     line-height: 1;
     margin-bottom: 0;
     color: #c1ceff;
-}
-
-.white {
-    color: white;
 }
 
 .card {
@@ -276,13 +277,17 @@ header {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 64px;
+    margin-bottom: 100px;
 }
 
 .integration {
     background-color: #e3e8ff;
-    height: 200px;
+    padding: 33px 0 135px 0;
+    text-align: center;
+}
 
+.integration p {
+    margin-top: 0;
 }
 
 .section-title {
@@ -293,12 +298,36 @@ header {
 
 .grid {
     display: flex;
-    height: 100px;
+    justify-content: center;  
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .integration-logo {
-    width: 50px;
-    padding: 20px;
+    width: 112px;
+    padding: 56px;
+}
+
+.gmail-logo {
+    padding-top: 18px;
+}
+
+.gmail-logo p {
+    padding-top: 13px;
+}
+
+.how-it-works-text {
+    width: 500px;
+    padding: 46px;
+}
+
+.how-it-works-text p {
+    color: gray;
+    font-size: 24px;
+}
+
+.how-it-works img {
+    padding: 32px;
 }
 
 footer {
