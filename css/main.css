@@ -144,12 +144,12 @@ h3 {
     
 } 
  
-#navbar ul li a { 
+ul li a { 
 	text-decoration: none; 
 	color: #dff4ff;; 
 } 
- 
-#navbar ul li a:hover { 
+
+ul li a:hover { 
 	color: white;
     border-bottom: 2px solid white;
     padding-bottom: 3px;
@@ -185,6 +185,8 @@ header {
 
 .hero {
     display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
     padding-top: 86px;
 }
 
@@ -362,10 +364,27 @@ header {
 }
 
 footer {
+    padding: 50px 0;
     height: 250px;
     background-color: #587aff;
 }
 
+footer ul {
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    list-style-type: none; 
+    max-width: 1000px;   
+}
+
+footer ul li {
+    padding: 5px 0;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}
 
 /* ==========================================================================
    Helper classes
