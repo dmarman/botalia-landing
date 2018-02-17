@@ -183,6 +183,15 @@ header {
     border-bottom: 0;
 }
 
+.logo-img {
+    width: 36px;
+}
+
+.logo-text {
+    padding: 0 10px;
+    font-weight: 400;
+}
+
 .hero {
     display: flex;
     -webkit-flex-wrap: wrap;
@@ -191,7 +200,7 @@ header {
 }
 
 .hero-content {
-    width: 560px;
+    width: 580px;
     padding: 0 5vw;
 }
 
@@ -365,7 +374,7 @@ header {
 
 footer {
     padding: 50px 0;
-    height: 250px;
+    height: 180px;
     background-color: #587aff;
 }
 
@@ -381,9 +390,8 @@ footer ul li {
     padding: 5px 0;
 }
 
-.copyright {
+.text-center {
     text-align: center;
-    color: white;
 }
 
 /* ==========================================================================
