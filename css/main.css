@@ -236,6 +236,7 @@ header {
 
 .cases .card {
     margin: 56px;
+    height: 350px;
 }
 
 .card p {
@@ -392,6 +393,103 @@ footer ul li {
 
 .text-center {
     text-align: center;
+}
+
+* {
+    /*outline: 1px solid red;*/
+}
+
+@media only screen and (max-width: 425px) {
+    html {
+        font-size: 14px;
+    }
+
+    .logo-img {
+        width: 20px;
+    }
+
+    .logo-text {
+        padding: 0 10px 0 4px;
+    }
+
+    #navbar ul li {
+        padding: 0;
+    }
+
+    .hero-content {
+        padding: 0;
+    }
+
+    .how-it-works img {
+        padding: 32px 0;
+        width: 80vw;
+    }
+
+    #navbar ul {
+        padding: 24px 0;
+    }
+
+    .hero {
+         padding-top: 0;
+    }
+
+    .hero .card {
+        margin-top: 36px;
+    }
+
+    .card p {
+        padding: 0;
+    }
+
+    header {
+        padding-bottom: 26px;
+    }
+
+    .cases .card {
+        margin: 16px;
+        height: auto;
+    }
+
+    .cases {
+        margin-bottom: 46px;
+    }
+
+    .transparent-card {
+        padding: 1px 0;
+    }
+
+    .integration {
+        padding: 0 0 50px 0;
+    }
+
+    .integration-logo {
+        width: 17vw;
+        padding: 26px 13vw;
+    }
+
+    .gmail-logo p {
+        padding-top: 8px;
+    }
+
+    .how-it-works {
+        padding: 0 0 50px 0;
+    }
+
+    .how-it-works-text {
+        padding: 0;
+    }
+
+    .cta {
+        padding: 25px 0 50px 0;
+    }
+
+    footer {
+        height: 90px;
+    }
+
+    footer ul {
+        display: none;
+    }
 }
 
 /* ==========================================================================
